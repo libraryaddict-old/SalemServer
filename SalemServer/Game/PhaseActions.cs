@@ -31,6 +31,7 @@ namespace SalemServer.Game
         public void Transport(int target1, int target2)
         {
             Player player = players[target1];
+
             players[target1] = players[target2];
             players[target2] = players[target1];
         }
